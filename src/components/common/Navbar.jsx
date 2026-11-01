@@ -8,7 +8,7 @@ export default function Navbar() {
   return (
     <header className="nav-bar">
       <NavLink to="/" className="nav-logo">
-        <span className="logo-icon">LT</span>
+        <span className="logo-icon"><img src="/src/assets/images/branding/LT_icon.png" alt="LearnTube logo"/></span>
         <span>
           <strong>LearnTube</strong>
         </span>
