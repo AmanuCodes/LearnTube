@@ -1,6 +1,6 @@
 //import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
-import COURSES_DATA from "../data/coursesData.js"
+import {COURSES_DATA} from "../data/coursesData.js"
 
 export default function HomePage(){
   const topicImgMap = 
