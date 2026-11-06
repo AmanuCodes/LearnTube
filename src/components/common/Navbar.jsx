@@ -9,8 +9,8 @@ export default function Navbar() {
     <header className="nav-bar">
       <NavLink to="/" className="nav-logo">
         <span className="logo-icon"><img src="/src/assets/images/branding/LT_icon.png" alt="LearnTube logo"/></span>
-        <span>
-          <strong>LearnTube</strong>
+        <span className="brand-name">
+          LearnTube
         </span>
       </NavLink>
 
