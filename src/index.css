@@ -1,0 +1,46 @@
+@import "tailwindcss";
+
+@theme {
+  --color-navbar-bg: #1d293b;
+}
+
+/* 
+* {
+  border: solid 1px red;
+}
+/**/
+
+/* Navbar */
+
+.nav-bar {
+  @apply sticky top-0 z-50 bg-[var(--color-navbar-bg)] grid grid-rows-2 grid-cols-1 justify-center content-center justify-items-center items-center gap-2 p-3;
+}
+
+.nav-logo {
+  @apply flex items-center gap-2;
+}
+
+.logo-icon {
+  @apply inline-block;
+
+  .logo-img {
+    @apply w-9;
+  }
+}
+
+.brand-name {
+  @apply text-xl font-black text-white;
+}
+
+.nav {
+  @apply flex h-fit w-full gap-2;
+}
+
+.nav-tab {
+  @apply block flex-1 min-w-0 rounded-md bg-white p-[0.2rem] text-center font-extrabold text-blue-500 transition-all duration-100 ease-in-out ;
+}
+
+.active-tab {
+  @apply text-white bg-blue-500;
+}
+

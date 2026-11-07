@@ -2,13 +2,13 @@ import { NavLink } from "react-router-dom";
 
 export default function Navbar() {
   function isTabActive({ isActive }) {
-    return `nav-tab-link ${isActive ? "active-tab" : ""}`;
+    return `nav-tab ${isActive ? "active-tab" : ""}`;
   }
 
   return (
     <header className="nav-bar">
       <NavLink to="/" className="nav-logo">
-        <span className="logo-icon"><img src="/src/assets/images/branding/LT_icon.png" alt="LearnTube logo"/></span>
+        <span className="logo-icon"><img className="logo-img" src="/src/assets/images/branding/LT_icon.png" alt="LearnTube logo" /></span>
         <span className="brand-name">
           LearnTube
         </span>
